@@ -1,0 +1,278 @@
+{
+  "name": "hotline-sos-2013",
+  "title": "Hotline SOS Démocratie 2013.",
+  "description": "Le fichier CSV ci-joint contient les données brutes de la Hotline SOS Démocratie.\n\n* Chaque ligne correspond à un appel de la hotline.\n* Les demandes d'appels non répondues (ou non saisies) ne sont pas présentes.\n* La liste des sujets avec codes est présente ci-dessous.\n* Les codes des localité correspondent à la BDD présente sur OpenData.ml.\n* Les numéros ne sont pas présents pour des raisons de confidentialité.",
+  "download_url": "https://raw.github.com/opendatamali/sos_hotline_data/master/hotline_data.csv",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ "Hotline", "SOS Démocratie", "Mali", "Élections" ],
+  "last_updated": "2013-07-12T17:02:05.840700",
+  "sources": [{
+    "name": "Jokkolabs Bamako",
+    "web": "http://jokkolabs.ml"
+  }],
+  "views": [
+    {
+      "id": "graph",
+      "state": {
+        "group": "received_on",
+        "series": [
+          "Rate"
+        ]
+      },
+      "type": "Graph"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/gdp.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "received_on",
+            "type": "datetime"
+          },
+          {
+            "label": "Operateur téléphonique",
+            "id": "operator",
+            "type": "string"
+          },
+          {
+            "label": "ID Volontaire",
+            "id": "volunteer",
+            "type": "string"
+          },
+          {
+            "label": "Type d'appel",
+            "id": "event_type",
+            "type": "string"
+          },
+          {
+            "label": "Date du rappel",
+            "id": "response_date",
+            "type": "datetime"
+          },
+          {
+            "label": "Age",
+            "id": "age",
+            "type": "number"
+          },
+          {
+            "label": "Sexe",
+            "id": "sex",
+            "type": "string"
+          },
+          {
+            "label": "Durée rappel (mn)",
+            "id": "duration",
+            "type": "number"
+          },
+          {
+            "label": "Localité",
+            "id": "location",
+            "type": "string"
+          },
+          {
+            "label": "Code localité",
+            "id": "location_slug",
+            "type": "string"
+          },
+          {
+            "label": "Type localité",
+            "id": "location_type",
+            "type": "string"
+          },
+          {
+            "label": "Sujets abordés",
+            "id": "topics_list",
+            "type": "string"
+          },
+          {
+            "label": "Nb de sujets abordés",
+            "id": "topics_count",
+            "type": "string"
+          },
+          {
+          	"label": "Pourquoi vous faites ça ? Qui êtes vous?",
+            "id": "topic_A1",
+            "type": "boolean"
+          },
+          {
+          	"label": "qu'est ce que la démocratie: comment voit on qu'elle est présente?",
+            "id": "topic_B1",
+            "type": "boolean"
+          },
+          {
+          	"label": "avantage/inconvénients",
+            "id": "topic_B2",
+            "type": "boolean"
+          },
+          {
+          	"label": "principes de la démocratie",
+            "id": "topic_B3",
+            "type": "boolean"
+          },
+          {
+          	"label": "histoire et application au Mali",
+            "id": "topic_B4",
+            "type": "boolean"
+          },
+          {
+          	"label": "qu'est ce que la décentralisation ?",
+            "id": "topic_C1",
+            "type": "boolean"
+          },
+          {
+          	"label": "Avantages/inconvénients de la décentralisation",
+            "id": "topic_C2",
+            "type": "boolean"
+          },
+          {
+          	"label": "rôle et responsabilités des citoyens",
+            "id": "topic_D1",
+            "type": "boolean"
+          },
+          {
+          	"label": "que faire en cas de fraude (témoin) ?",
+            "id": "topic_D2",
+            "type": "boolean"
+          },
+          {
+          	"label": "comment le vote est supervisé ?",
+            "id": "topic_D3",
+            "type": "boolean"
+          },
+          {
+          	"label": "comment avoir la carte NINA ? (retrait)",
+            "id": "topic_E1",
+            "type": "boolean"
+          },
+          {
+          	"label": "Procuration",
+            "id": "topic_E10",
+            "type": "boolean"
+          },
+          {
+          	"label": "qu'est ce que la carte NINA ?",
+            "id": "topic_E2",
+            "type": "boolean"
+          },
+          {
+          	"label": "est-ce que j'ai le droit de voter?",
+            "id": "topic_E3",
+            "type": "boolean"
+          },
+          {
+          	"label": "quel rapport avec le ravec ?",
+            "id": "topic_E4",
+            "type": "boolean"
+          },
+          {
+          	"label": "perte de carte Nina ; que faire?",
+            "id": "topic_E5",
+            "type": "boolean"
+          },
+          {
+          	"label": "Erreur sur la carte nina",
+            "id": "topic_E6",
+            "type": "boolean"
+          },
+          {
+          	"label": "N'est pas sur la liste",
+            "id": "topic_E7",
+            "type": "boolean"
+          },
+          {
+          	"label": "Transfert de bureau",
+            "id": "topic_E8",
+            "type": "boolean"
+          },
+          {
+          	"label": "Comment faire le RAVEC actuellement ?",
+            "id": "topic_E9",
+            "type": "boolean"
+          },
+          {
+          	"label": "C'est quoi le vote?",
+            "id": "topic_F1",
+            "type": "boolean"
+          },
+          {
+          	"label": "Combien de bureaux de vote ? ",
+            "id": "topic_F10",
+            "type": "boolean"
+          },
+          {
+          	"label": "comment être sur que mon vote a été prit en compte?",
+            "id": "topic_F11",
+            "type": "boolean"
+          },
+          {
+          	"label": "comment choisir en pratique pour qui voter (présentation du bulletin)",
+            "id": "topic_F12",
+            "type": "boolean"
+          },
+          {
+          	"label": "Avec quoi votons nous ? (en général)",
+            "id": "topic_F2",
+            "type": "boolean"
+          },
+          {
+          	"label": "Pourquoi voter?",
+            "id": "topic_F3",
+            "type": "boolean"
+          },
+          {
+          	"label": "Pourquoi voter pour un candidat (en particulier) ?",
+            "id": "topic_F4",
+            "type": "boolean"
+          },
+          {
+          	"label": "Quels sont les avantages d'aller voter?",
+            "id": "topic_F5",
+            "type": "boolean"
+          },
+          {
+          	"label": "Quels sont les inconvénients de ne pas aller voter?",
+            "id": "topic_F6",
+            "type": "boolean"
+          },
+          {
+          	"label": "Qu'est ce qu'un bulletin nul?",
+            "id": "topic_F7",
+            "type": "boolean"
+          },
+          {
+          	"label": "Comment voter en pratique (urne, encre, isoloir)",
+            "id": "topic_F8",
+            "type": "boolean"
+          },
+          {
+          	"label": "Ou puis-je voter?",
+            "id": "topic_F9",
+            "type": "boolean"
+          },
+          {
+          	"label": "Rapport d'incident",
+            "id": "topic_G1",
+            "type": "boolean"
+          },
+          {
+          	"label": "Autre question",
+            "id": "topic_H1",
+            "type": "boolean"
+          },
+          {
+          	"label": "Ne repond pas",
+            "id": "topic_H2",
+            "type": "boolean"
+          }
+        ]
+      }
+    }
+  ]
+}
