@@ -12,7 +12,7 @@
     }
   ],
   "keywords": [ "Hotline", "SOS Démocratie", "Mali", "Élections" ],
-  "last_updated": "2013-07-24T17:00:49.015555",
+  "last_updated": "2013-07-25T13:43:58.105798",
   "sources": [{
     "name": "Jokkolabs Bamako",
     "web": "http://jokkolabs.ml"
@@ -101,6 +101,11 @@
           {
           	"label": "Pourquoi vous faites ça ? Qui êtes vous?",
             "id": "topic_A1",
+            "type": "boolean"
+          },
+          {
+          	"label": "Rappel de remerciement",
+            "id": "topic_A2",
             "type": "boolean"
           },
           {
