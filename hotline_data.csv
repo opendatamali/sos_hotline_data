@@ -7410,3 +7410,8 @@ received_on,operator,volunteer,event_type,response_date,age,sex,duration,locatio
 2013-08-03T14:57:44.486000,orange,samerou,RING,2013-08-03T15:01:00,25,M,1,NIAMAKORO,91096496,village,,,E8,1,,,,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,,,,,
 2013-08-03T19:23:17.686000,malitel,samerou,RING,2013-08-04T15:30:00,37,M,2,BANCOUMANA,25003001,village,12.21,-8.27,F9,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,
 2013-08-03T18:08:53.996000,orange,samerou,RING,2013-08-04T10:10:00,29,M,1,HORS DU MALI,99999999,region,,,H1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,
+2013-08-04T16:06:37.646000,orange,samerou,RING,2013-08-04T16:58:21,26,M,3,HORS DU MALI,99999999,region,,,H1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,
+2013-08-04T16:02:12.126000,orange,samerou,RING,2013-08-04T16:58:46,22,M,2,HORS DU MALI,99999999,region,,,E7,1,,,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,,,,,,
+2013-08-04T16:13:45.596000,orange,samerou,RING,2013-08-04T16:35:09,19,M,2,SIKASSO,30000000,region,,,"A2, E2",2,,true,,,,,,,,,,,,true,,,,,,,,,,,,,,,,,,,,,,,
+2013-08-04T16:00:16.806000,orange,samerou,RING,2013-08-04T16:42:00,30,M,2,MOPTI,50000000,region,,,E1,1,,,,,,,,,,,,true,,,,,,,,,,,,,,,,,,,,,,,,,
+2013-08-04T16:01:14.686000,orange,samerou,RING,2013-08-04T16:37:00,27,M,3,BAMAKO,90000000,region,,,E6,1,,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,,,,,,,
