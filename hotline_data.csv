@@ -8176,3 +8176,6 @@ received_on,operator,volunteer,event_type,response_date,age,sex,duration,locatio
 2013-08-12T14:13:34.171000,orange,abba,RING,2013-08-12T15:56:00,23,M,2,5E QUARTIER OU DIOULA,71091397,village,16.28,-0.05,H3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true
 2013-08-12T16:06:25,orange,samerou,CALL_ME,2013-08-12T16:07:00,22,F,5,YIRIMADJO,91096892,village,,,"E6, H1",2,,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,,,,,true,,
 2013-08-12T20:03:39,orange,samerou,SMS_HOTLINE,2013-08-13T10:41:00,21,F,1,FADJIGUILA,91091445,village,,,"A2, H1",2,,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,
+2013-07-25T18:11:44,orange,abba,SMS_SPAM,2013-07-25T18:11:00,,M,2,DISTRICT DE BAMAKO,91000000,cercle,,,F5,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,,,,,
+2013-07-28T15:01:59,orange,abba,CHARGE_ME,2013-07-28T15:01:00,,U,0,,,,,,H2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,
+2013-07-28T16:09:49,malitel,abba,SMS_SPAM,2013-07-28T16:09:00,,U,0,,,,,,H2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,
