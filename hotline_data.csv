@@ -8249,3 +8249,5 @@ received_on,operator,volunteer,event_type,response_date,age,sex,duration,locatio
 2013-08-22T19:44:38,orange,abba,RING,2013-08-22T17:57:00,27,M,1,KABALA,25029167,village,12.53,-8.04,E1,1,,,,,,,,,,,,true,,,,,,,,,,,,,,,,,,,,,,,,,
 2013-08-22T20:24:44.961000,orange,abba,RING,2013-08-22T20:24:00,,U,0,,,,,,H2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,
 2013-08-21T11:09:06.471000,orange,abba,RING,2013-08-21T11:09:00,,U,0,,,,,,H2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,
+2013-08-23T22:07:05,orange,abba,CALL_ME,2013-08-24T09:30:00,24,M,2,BANCONI,91091001,village,,,"A1, E8",2,true,,,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,,,,,
+2013-08-23T21:10:29,malitel,abba,SMS_HOTLINE,2013-08-23T09:10:00,21,M,2,DISTRICT DE BAMAKO,91000000,cercle,,,B1,1,,,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
